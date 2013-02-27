@@ -43,7 +43,7 @@ describe('shortlink', function(){
     
     describe('"generateBase52" method', function(){
         it('should return correct value', function(){
-            shortlink.should.not.have.property('generateBase52');
+            shortlink.should.have.property('generateBase52');
             shortlink.generateBase52.should.be.an.instanceOf(Function);
         });
     });

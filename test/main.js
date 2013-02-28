@@ -31,6 +31,12 @@ describe('shortlink', function () {
             random.should.have.length(5);
         });
 
+        it('should return correct type value (with set length 1)', function () {
+            var random = shortlink.generate(1);
+            random.should.be.a('string');
+            random.should.have.length(1);
+        });
+
         it('should return correct type value (with set length 12)', function () {
             var random = shortlink.generate(12);
             random.should.be.a('string');
@@ -47,10 +53,28 @@ describe('shortlink', function () {
             str.should.equal('2T6u2h');
         });
 
-        it('should return correct value (example from flickr.com)', function () {
+        it('should return correct value (set real ID from flickr.com)', function () {
             var str = shortlink.encode(8515010570);
             str.should.be.a('string');
             str.should.equal('dYrDZ5');
+        });
+
+        it('should return correct value (set 1 digit number)', function () {
+            var str = shortlink.encode(7);
+            str.should.be.a('string');
+            str.should.equal('8');
+        });
+
+        it('should return correct value (set 2 digit number)', function () {
+            var str = shortlink.encode(77);
+            str.should.be.a('string');
+            str.should.equal('2k');
+        });
+
+        it('should return correct value (set max integer 64 bit)', function () {
+            var str = shortlink.encode(9007199254740992);
+            str.should.be.a('string');
+            str.should.equal('2dknRmrjUG');
         });
 
     });
@@ -63,10 +87,28 @@ describe('shortlink', function () {
             num.should.equal(1234567890);
         });
 
-        it('should return correct value (example from flickr.com)', function () {
+        it('should return correct value (set real shortlink ID from flickr.com)', function () {
             var num = shortlink.decode('dYrDZ5');
             num.should.be.a('number');
             num.should.equal(8515010570);
+        });
+
+        it('should return correct value (set string with 1 character)', function () {
+            var str = shortlink.decode('8');
+            str.should.be.a('number');
+            str.should.equal(7);
+        });
+
+        it('should return correct value (set string with 2 characters)', function () {
+            var str = shortlink.decode('2k');
+            str.should.be.a('number');
+            str.should.equal(77);
+        });
+
+        it('should return correct value (expect get max integer 64 bit)', function () {
+            var str = shortlink.decode('2dknRmrjUG');
+            str.should.be.a('number');
+            str.should.equal(9007199254740992);
         });
 
     });

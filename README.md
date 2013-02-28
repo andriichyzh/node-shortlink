@@ -16,7 +16,7 @@ For example `8515010570` becomes `dYrDZ5` when Base58 encoded and this on Flickr
 ## Installation
 
 ```bash
-    npm install shortlink
+npm install shortlink
 ```
 
 ## Usage
@@ -31,7 +31,9 @@ shortlink.decode('dYrDZ5');   // 8515010570
 
 ## Run tests
 
-    make test
+```bash
+make test
+```
 
 ## Package manager page
 

@@ -21,6 +21,8 @@ Flickr short URL is: `http://flic.kr/p/brXijP`
 
 ```javascript
 var shortlink = require('shortlink');
+
+shortlink.generate(8); // 
 shortlink.encode(6857269519); // 'brXijP'
 shortlink.decode('brXijP');   // 6857269519
 ```

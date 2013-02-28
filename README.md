@@ -9,8 +9,8 @@ Simple generation, encoding and decoding short links library for [Node.js].
 Base58 allows you to represent a numeric value with fewer characters, useful
 for short URLs among other things.
 
-For example `8515010570` becomes `dYrDZ5` when Base58 encoded, and hence the
-Flickr short URL is: `http://flic.kr/p/dYrDZ5`
+For example `8515010570` becomes `dYrDZ5` when Base58 encoded. 
+And hence the Flickr short URL is: `http://flic.kr/p/dYrDZ5`
 
 ## Installation
 
@@ -21,7 +21,7 @@ Flickr short URL is: `http://flic.kr/p/dYrDZ5`
 ```javascript
 var shortlink = require('shortlink');
 
-shortlink.generate(8); //  
+shortlink.generate(8); // Random string of 8 characters, for example 'PJWn4T42'  
 shortlink.encode(8515010570); // 'dYrDZ5'
 shortlink.decode('dYrDZ5');   // 8515010570
 ```

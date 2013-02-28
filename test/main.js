@@ -4,19 +4,17 @@ var shortlink = require("../lib/shortlink");
 
 describe('shortlink', function () {
 
-    describe('module', function () {
+    describe('module API', function () {
 
         it('should have "generate" method', function () {
             shortlink.should.have.property('generate');
             shortlink.generate.should.be.an.instanceOf(Function);
         });
 
-
         it('should have "generate" method', function () {
             shortlink.should.have.property('decode');
             shortlink.generate.should.be.an.instanceOf(Function);
         });
-
 
         it('should have "generate" method', function () {
             shortlink.should.have.property('encode');
@@ -28,15 +26,15 @@ describe('shortlink', function () {
     describe('#generate method', function () {
 
         it('should return correct type value (with no set length)', function () {
-            var result = shortlink.generate();
-            result.should.be.a('string');
-            result.should.have.length(5);
+            var random = shortlink.generate();
+            random.should.be.a('string');
+            random.should.have.length(5);
         });
 
-        it('should return correct type value (with set length 10)', function () {
-            var result = shortlink.generate(10);
-            result.should.be.a('string');
-            result.should.have.length(10);
+        it('should return correct type value (with set length 12)', function () {
+            var random = shortlink.generate(12);
+            random.should.be.a('string');
+            random.should.have.length(12);
         });
 
     });

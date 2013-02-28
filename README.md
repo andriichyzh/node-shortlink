@@ -7,7 +7,6 @@ Simple generation, encoding and decoding short links library for [Node.js].
 ## What?
 
 Base58 encoding can represent numeric values with fewer characters.
-Base58 is what you get after taking Base62 `[a-zA-Z0-9]` and removing any character that may induce to error when introduced by hand: 0 (zero), O (uppercase 'o'), I (uppercase 'i'), and l (lowercase 'L'). 
 This concept was introduced to the general public by Flickr, which uses the following String:
 
 `123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ`

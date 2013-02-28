@@ -27,6 +27,12 @@ shortlink.encode(6857269519); // 'brXijP'
 shortlink.decode('brXijP');   // 6857269519
 ```
 
+## NPM Page
+
+Page on [npm]
+
+[npmjs.org]: https://npmjs.org/package/shortlink
+
 ## License
 
 Released under the MIT license. Copyright (c) 2013 Andrey Chizh.

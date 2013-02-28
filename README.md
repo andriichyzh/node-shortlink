@@ -31,7 +31,7 @@ shortlink.decode('brXijP');   // 6857269519
 
 Page on [npm]
 
-[npmjs.org]: https://npmjs.org/package/shortlink
+[npm]: https://npmjs.org/package/shortlink
 
 ## License
 

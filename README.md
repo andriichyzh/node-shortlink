@@ -40,4 +40,6 @@ See [npm]
 
 ## License
 
-Released under the MIT license. Copyright (c) 2013 Andrey Chizh.
+Released under the [MIT] license. Copyright (c) 2013 Andrey Chizh.
+
+[MIT]: https://raw.github.com/AndreyChizh/node-shortlink/master/LICENSE.md

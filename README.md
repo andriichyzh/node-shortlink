@@ -15,14 +15,14 @@ Flickr short URL is: `http://flic.kr/p/brXijP`
 
 ## Installation
 
-    npm install base58
+    npm install shortlink
 
 ## Usage
 
 ```javascript
-var Base58 = require('base58');
-Base58.encode(6857269519); // 'brXijP'
-Base58.decode('brXijP');   // 6857269519
+var shortlink = require('shortlink');
+shortlink.encode(6857269519); // 'brXijP'
+shortlink.decode('brXijP');   // 6857269519
 ```
 
 ## License

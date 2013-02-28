@@ -27,9 +27,9 @@ shortlink.encode(6857269519); // 'brXijP'
 shortlink.decode('brXijP');   // 6857269519
 ```
 
-## NPM Page
+## Package manager page
 
-Page on [npm]
+See [npm]
 
 [npm]: https://npmjs.org/package/shortlink
 

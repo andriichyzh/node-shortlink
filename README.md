@@ -7,6 +7,7 @@ Simple generation, encoding and decoding short links library for [Node.js].
 ## What?
 
 Base58 encoding can represent numeric values with fewer characters.
+
 This concept was introduced to the general public by Flickr, which uses the following String:
 
 `123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ`

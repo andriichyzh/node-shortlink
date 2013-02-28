@@ -1,6 +1,6 @@
 {
     "name" : "shortlink",
-    "version" : "0.0.4",
+    "version" : "1.0.0",
     "description" : "Simple generation, encoding and decoding short links library for Node.js.",
     "keywords" : [ "shortlink", "shorturl", "base58" ],
     "author" : {

@@ -47,3 +47,6 @@ See [npm]
 Released under the [MIT] license. Copyright (c) 2013 Andrey Chizh.
 
 [MIT]: https://raw.github.com/AndreyChizh/node-shortlink/master/LICENSE.md
+
+<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+

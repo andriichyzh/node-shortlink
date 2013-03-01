@@ -115,9 +115,9 @@ describe('shortlink', function () {
 
     describe('module', function () {
 
-        it('should no have any collisions', function () {
+        it('should no have integrations errors on generate/encode/decode operations', function () {
             var isError = false;
-            for (var i = 0; i < 10000; i++) {
+            for (var i = 0; i < 5000; i++) {
                 var randomStr = shortlink.generate(7),
                     randomNum = shortlink.decode(randomStr),
                     str = shortlink.encode(randomNum),

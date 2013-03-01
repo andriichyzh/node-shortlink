@@ -8,6 +8,8 @@ Simple generation, encoding and decoding short links library for [Node.js].
 
 Short links makes it easier for users to recall and share the locations of important documents and web sites.
 
+This library is used by default Base58 encoding and can represent numeric values ​​with fewer characters and easy understandable view.
+
 ## Installation
 
 ```bash

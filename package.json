@@ -8,28 +8,22 @@
         "email" : "info.andreychizh@gmail.com",
         "url" : "http://andreychizh.com"
     },
-
     "homepage" : "http://andreychizh.github.com/node-shortlink/",
-
     "repository" : {
         "type" : "git",
         "url" : "git://github.com/AndreyChizh/node-shortlink.git"
     },
-
     "main" : "./lib/shortlink",
     "engines" : {
         "node" : "> 0.6.0"
     },
-
     "scripts" : {
         "test" : "make test"
     },
-
     "devDependencies" : {
         "mocha" : "*",
         "should" : "*"
     },
-
     "licenses" : [
         {
             "type" : "MIT",

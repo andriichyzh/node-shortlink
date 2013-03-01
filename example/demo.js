@@ -3,21 +3,22 @@ var shortlink = require("../lib/shortlink");
 setInterval(function() {
 
     // Generate random
-    var random = shortlink.generate(1);
+    var random = shortlink.generate(6);
+    console.log('Generate random shortlink: ' + random);
 
-    // Decode random string
+    // Decode random shortlink to int
     var id = shortlink.decode(random);
+    console.log('Decode this shortlink to int: ' + id);
 
-    // Encode to string
+    // Encode this int to shortlink
     var str = shortlink.encode(id);
+    console.log('Encode this int to shortlink: ' + str);
 
-    // Decode string
+    // Decode this shortlink to int
     var res = shortlink.decode(str);
+    console.log('Decode this shortlink to int: ' + res);
 
-    console.log('id = ' + id);
-    console.log(random + ' : ' + str);
-    console.log('id = ' + res);
-    console.log('----------------');
+    console.log('--------------');
 
 }, 2000);
 

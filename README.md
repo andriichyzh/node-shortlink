@@ -14,8 +14,6 @@ This concept was introduced to the general public by Flickr, which uses the foll
 
 For example `8515010570` becomes `dYrDZ5` when Base58 encoded and this on Flickr short URL is: `http://flic.kr/p/dYrDZ5`
 
-## Testing on NodeJs: 0.6, 0.7, 0.8, 0.9
-
 ## Installation
 
 ```bash

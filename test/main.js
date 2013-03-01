@@ -113,4 +113,26 @@ describe('shortlink', function () {
 
     });
 
+    describe('module', function () {
+
+        it('should no have any collisions', function () {
+            var isError = false;
+            for (var i = 0; i < 10000; i++) {
+                var random = shortlink.generate(7),
+                    id = shortlink.decode(random),
+                    str = shortlink.encode(id),
+                    res = shortlink.decode(str);
+
+                if(random !== str || id !== res) {
+                    isError = true;
+                }
+            }
+
+            isError.should.be.false;
+
+        });
+
+    });
+
+
 });

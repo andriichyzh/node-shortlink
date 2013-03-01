@@ -30,7 +30,15 @@ shortlink.encode(8515010570); // 'dYrDZ5'
 shortlink.decode('dYrDZ5');   // 8515010570
 ```
 
-## Run tests
+## Running Tests
+
+To run the test suite first invoke the following command within the repo, installing the development dependencies:
+
+```bash
+npm install
+```
+
+then run the tests:
 
 ```bash
 make test
@@ -47,3 +55,6 @@ See [npm]
 Released under the [MIT] license. Copyright (c) 2013 Andrey Chizh.
 
 [MIT]: https://raw.github.com/AndreyChizh/node-shortlink/master/LICENSE.md
+
+<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+

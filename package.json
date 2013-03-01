@@ -1,8 +1,8 @@
 {
     "name" : "shortlink",
-    "version" : "1.0.1",
+    "version" : "1.0.2",
     "description" : "Simple generation, encoding and decoding short links library for Node.js.",
-    "keywords" : [ "shortlink", "shorturl", "base58" ],
+    "keywords" : [ "shortlink", "shorturl", "base58", "base52" ],
     "author" : {
         "name" : "Andrey Chizh",
         "email" : "info.andreychizh@gmail.com",

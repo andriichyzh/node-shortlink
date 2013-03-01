@@ -2,7 +2,7 @@ var shortlink = require("../lib/shortlink");
 
 setInterval(function() {
 
-    // Generate random
+    // Generate random shortlink
     var random = shortlink.generate(6);
     console.log('Generate random shortlink: ' + random);
 

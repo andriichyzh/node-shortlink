@@ -118,12 +118,12 @@ describe('shortlink', function () {
         it('should no have any collisions', function () {
             var isError = false;
             for (var i = 0; i < 10000; i++) {
-                var random = shortlink.generate(7),
-                    id = shortlink.decode(random),
-                    str = shortlink.encode(id),
-                    res = shortlink.decode(str);
+                var randomStr = shortlink.generate(7),
+                    randomNum = shortlink.decode(randomStr),
+                    str = shortlink.encode(randomNum),
+                    num = shortlink.decode(str);
 
-                if(random !== str || id !== res) {
+                if(randomStr !== str || randomNum !== num) {
                     isError = true;
                 }
             }

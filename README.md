@@ -10,6 +10,13 @@ Short links makes it easier for users to recall and share the locations of impor
 
 This library is used by default Base58 encoding and can represent numeric values with fewer characters and easy understandable view.
 
+## Alphabets
+
+```
+base52: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+base58: '123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ'
+```
+
 ## Installation
 
 ```bash

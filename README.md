@@ -29,9 +29,9 @@ npm install shortlink
 ```javascript
 var shortlink = require('shortlink');
 
-shortlink.generate(8); // Random string of 8 characters, for example 'PJWn4T42'  
-shortlink.encode(8515010570); // 'dYrDZ5'
-shortlink.decode('dYrDZ5');   // 8515010570
+shortlink.generate(8);         // Random string of 8 characters, for example 'PJWn4T42'  
+shortlink.encode(8515010570);  // 'dYrDZ5'
+shortlink.decode('dYrDZ5');    // 8515010570
 ```
 
 ## Running Tests
@@ -59,6 +59,3 @@ See [npm]
 Released under the [MIT] license. Copyright (c) 2013 Andrey Chizh.
 
 [MIT]: https://raw.github.com/AndreyChizh/node-shortlink/master/LICENSE.md
-
-<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
-

@@ -1,6 +1,6 @@
 {
     "name" : "shortlink",
-    "version" : "1.0.7",
+    "version" : "1.0.8",
     "description" : "Simple generation, encoding and decoding short links library for Node.js.",
     "keywords" : [ "shortlink", "shorturl", "base58" ],
     "author" : {
@@ -11,7 +11,7 @@
     "homepage" : "http://andreychizh.github.com/node-shortlink/",
     "repository" : {
         "type" : "git",
-        "url" : "git://github.com/AndreyChizh/node-shortlink.git"
+        "url" : "https://github.com/andreychizh/node-shortlink.git"
     },
     "main" : "./lib/shortlink",
     "engines" : {
@@ -27,7 +27,7 @@
     "licenses" : [
         {
             "type" : "MIT",
-            "url" : "https://raw.github.com/AndreyChizh/node-shortlink/master/LICENSE.md"
+            "url" : "https://raw.githubusercontent.com/andreychizh/node-shortlink/master/LICENSE.md"
         }
     ]
 }

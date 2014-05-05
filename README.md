@@ -1,4 +1,4 @@
-# node-shortlink [![Build Status](https://travis-ci.org/AndreyChizh/node-shortlink.png?branch=master)](https://travis-ci.org/AndreyChizh/node-shortlink)
+# node-shortlink [![Build Status](https://travis-ci.org/andreychizh/node-shortlink.png?branch=master)](https://travis-ci.org/andreychizh/node-shortlink)
 
 Simple generation, encoding and decoding short links library for [Node.js].
 
@@ -58,4 +58,4 @@ Direct link to the [package]
 
 Released under the [MIT] license. Copyright (c) 2013 Andrey Chizh.
 
-[MIT]: https://raw.github.com/AndreyChizh/node-shortlink/master/LICENSE.md
+[MIT]: https://raw.github.com/andreychizh/node-shortlink/master/LICENSE.md

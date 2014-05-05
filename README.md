@@ -50,9 +50,11 @@ make test
 
 ## Package manager page
 
-See [npm]
+[![NPM](https://nodei.co/npm/shortlink.png?downloads=true&stars=true)](https://nodei.co/npm/shortlink/)
 
-[npm]: https://npmjs.org/package/shortlink
+Direct link to the [package]
+
+[package]: https://npmjs.org/package/shortlink
 
 ## License
 

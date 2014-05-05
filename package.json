@@ -1,8 +1,8 @@
 {
     "name" : "shortlink",
-    "version" : "1.0.6",
+    "version" : "1.0.7",
     "description" : "Simple generation, encoding and decoding short links library for Node.js.",
-    "keywords" : [ "shortlink", "shorturl", "base58", "base52" ],
+    "keywords" : [ "shortlink", "shorturl", "base58" ],
     "author" : {
         "name" : "Andrey Chizh",
         "email" : "info.andreychizh@gmail.com",
@@ -18,7 +18,7 @@
         "node" : "> 0.6.0"
     },
     "scripts" : {
-        "test" : "make test"
+        "test" : "./node_modules/.bin/mocha --reporter spec"
     },
     "devDependencies" : {
         "mocha" : "*",

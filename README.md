@@ -21,7 +21,7 @@ base64: '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
 ## Installation
 
 ```bash
-npm install shortlink
+npm install shortlink --save
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ shortlink.decode('dYrDZ5');    // 8515010570
 To run the test suite first invoke the following command within the repo, installing the development dependencies:
 
 ```bash
-npm install --save
+npm install
 ```
 
 then run the tests:

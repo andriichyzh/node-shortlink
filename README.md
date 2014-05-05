@@ -43,7 +43,7 @@ npm install
 then run the tests:
 
 ```bash
-make test
+npm test
 ```
 
 ## Package manager page

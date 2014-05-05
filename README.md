@@ -39,7 +39,7 @@ shortlink.decode('dYrDZ5');    // 8515010570
 To run the test suite first invoke the following command within the repo, installing the development dependencies:
 
 ```bash
-npm install
+npm install --save
 ```
 
 then run the tests:

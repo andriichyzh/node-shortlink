@@ -27,7 +27,7 @@ npm install shortlink --save
 ```javascript
 var shortlink = require('shortlink');
 
-shortlink.generate(8);         // Random string of 8 characters, for example 'PJWn4T42'  
+shortlink.generate(8);         // Random string of 8 characters, e.g. 'PJWn4T42'  
 shortlink.encode(8515010570);  // 'dYrDZ5'
 shortlink.decode('dYrDZ5');    // 8515010570
 ```

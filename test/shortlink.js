@@ -1,3 +1,6 @@
+
+'use strict';
+
 var should = require("should");
 
 var shortlink = require("../lib/shortlink");

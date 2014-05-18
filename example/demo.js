@@ -21,5 +21,3 @@ setInterval(function() {
     console.log('--------------');
 
 }, 2000);
-
-

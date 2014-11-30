@@ -48,7 +48,7 @@ npm test
 
 ## Package manager page
 
-[![NPM](https://nodei.co/npm/shortlink.png?downloads=true&stars=true)](https://nodei.co/npm/shortlink/)
+[![NPM](https://nodei.co/npm/shortlink.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/shortlink/)
 
 Direct link to the [package]
 

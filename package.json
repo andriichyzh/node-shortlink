@@ -5,18 +5,15 @@
     "keywords" : [ "shortlink", "shorturl", "base58" ],
     "author" : {
         "name" : "Andrey Chizh",
-        "email" : "info.andreychizh@gmail.com",
-        "url" : "http://andreychizh.com"
+        "email" : "info.andreychizh@gmail.com"
     },
     "homepage" : "http://andreychizh.github.com/node-shortlink/",
     "repository" : {
         "type" : "git",
         "url" : "https://github.com/andreychizh/node-shortlink.git"
     },
-    "main" : "./lib/shortlink",
-    "engines" : {
-        "node" : "> 0.8.0"
-    },
+    "main" : "index.js",
+
     "scripts" : {
         "test" : "./node_modules/.bin/mocha --reporter spec"
     },

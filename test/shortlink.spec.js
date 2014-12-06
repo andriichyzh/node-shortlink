@@ -3,7 +3,7 @@
 
 var should = require("should");
 
-var shortlink = require("../lib/shortlink");
+var shortlink = require("../");
 
 describe('shortlink', function () {
 
@@ -75,7 +75,7 @@ describe('shortlink', function () {
         });
 
         it('should return correct value (set max integer 64 bit)', function() {
-            var str = shortlink.encode(9007199254740992);
+            var str = shortlink.encode(Math.pow(2, 53));
             str.should.be.type('string');
             str.should.equal('2dknRmrjUG');
         });
@@ -111,7 +111,7 @@ describe('shortlink', function () {
         it('should return correct value (expect get max integer 64 bit)', function() {
             var str = shortlink.decode('2dknRmrjUG');
             str.should.be.type('number');
-            str.should.equal(9007199254740992);
+            str.should.equal(Math.pow(2, 53));
         });
 
     });
@@ -127,7 +127,7 @@ describe('shortlink', function () {
                     str = shortlink.encode(randomNum),
                     num = shortlink.decode(str);
 
-                if(randomStr !== str || randomNum !== num) {
+                if (randomStr !== str || randomNum !== num) {
                     isError = true;
                 }
             }
